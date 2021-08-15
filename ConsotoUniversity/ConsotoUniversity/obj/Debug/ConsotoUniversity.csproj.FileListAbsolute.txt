@@ -77,3 +77,10 @@ D:\EF6-CodeFirst-MVC5\ConsotoUniversity\ConsotoUniversity\obj\Debug\ConsotoUnive
 D:\EF6-CodeFirst-MVC5\ConsotoUniversity\ConsotoUniversity\obj\Debug\ConsotoUniversity.csproj.CopyComplete
 D:\EF6-CodeFirst-MVC5\ConsotoUniversity\ConsotoUniversity\obj\Debug\ConsotoUniversity.dll
 D:\EF6-CodeFirst-MVC5\ConsotoUniversity\ConsotoUniversity\obj\Debug\ConsotoUniversity.pdb
+<<<<<<< HEAD
+=======
+D:\EF6-CodeFirst-MVC5\ConsotoUniversity\ConsotoUniversity\bin\EntityFramework.dll
+D:\EF6-CodeFirst-MVC5\ConsotoUniversity\ConsotoUniversity\bin\EntityFramework.SqlServer.dll
+D:\EF6-CodeFirst-MVC5\ConsotoUniversity\ConsotoUniversity\bin\EntityFramework.xml
+D:\EF6-CodeFirst-MVC5\ConsotoUniversity\ConsotoUniversity\bin\EntityFramework.SqlServer.xml
+>>>>>>> setup
