@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.Infrastructure.Interception;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -19,6 +20,8 @@ namespace ConsotoUniversity
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             Database.SetInitializer(new SchoolInitializer());
+            DbInterception.Add(new SchoolInterceptorTransientErrors());
+            DbInterception.Add(new SchoolInterceptorLogging());
         }
     }
 }
